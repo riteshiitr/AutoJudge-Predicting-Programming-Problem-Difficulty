@@ -81,11 +81,11 @@ Feature selection helped improve overall accuracy.
 
 # 📈 Model Performance
 
--✅ Random Forest Accuracy: ~54%
+-✅ Classifiction: Random Forest Accuracy: ~54%
 
--📉 MAE: ~2.5
+-📉 Regression: MAE: ~2.5
 
--📉 RMSE: ~3.1
+-📉 Regression: RMSE: ~3.1
 
 Better results were achieved after adding engineered features.
 
