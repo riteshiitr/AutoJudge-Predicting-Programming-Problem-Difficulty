@@ -136,42 +136,37 @@ The project includes an interactive Streamlit web app.
 
      AutoJudge/
      │
-     ├── Dataset/ 📊
+     ├── Dataset/ 
      │   └── problems_data.jsonl
-     │      # Dataset containing programming problems and difficulty labels
+     │             # Dataset containing programming problems and difficulty labels
      │
-     ├── Source Code/ 💻
+     ├── Source Code/ 
      │   └── Source_Code_ACM.ipynb
-     │      # Jupyter Notebook for data preprocessing, feature engineering,
-     │      # model training, and evaluation
+     │         # Jupyter Notebook for data preprocessing, feature engineering, model training, and evaluation
      │
-     ├── Trained_Models/ 🤖
-     │   ├── difficulty_classifier.pkl
-     │   │   # Trained classification model (Easy / Medium / Hard)
-     │   ├── difficulty_regressor.pkl
-     │   │   # Trained regression model for difficulty score
-     │   └── tfidf_vectorizer.pkl
-     │       # TF-IDF vectorizer used for text feature extraction
+     ├── Trained_Models/ 
+     │   ├── difficulty_classifier.pkl     # Trained classification model (Easy / Medium / Hard)
+     │   │  
+     │   ├── difficulty_regressor.pkl      # Trained regression model for difficulty score
+     │   │  
+     │   └── tfidf_vectorizer.pkl          # TF-IDF vectorizer used for text feature extraction
+     │      
      │
-     ├── results_ss/ 📈
+     ├── results_ss/ 
      │   ├── RF_Accuracy.png
      │   ├── Improved_RF_Accuracy.png
      │   ├── RF_Confusion_Matrix.png
      │   ├── RF_Improved_Accuracy.png
      │   └── Regression_MAE_RMSE.png
-     │       # Screenshots of model performance and evaluation metrics
+     │                # Screenshots of model performance and evaluation metrics
      │
-     ├── app_web.py 🚀
-     │   # Streamlit web application for difficulty prediction
+     ├── app_web.py 
      │
-     ├── README.md 📝
-     │   # Project documentation
+     ├── README.md 
      │
-     ├── Report.pdf 📄
-     │   # Detailed project report (ACM format)
+     ├── Report.pdf 
      │
-     └── requirements.txt ⚙️
-         # List of required Python dependencies
+     └── requirements.txt 
 
 # 🎥 Demo Video
 
