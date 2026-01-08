@@ -132,6 +132,47 @@ The project includes an interactive Streamlit web app.
 
     http://localhost:8501
 
+## 📁 Repo Structure
+
+     AutoJudge/
+     │
+     ├── Dataset/ 📊
+     │   └── problems_data.jsonl
+     │      # Dataset containing programming problems and difficulty labels
+     │
+     ├── Source Code/ 💻
+     │   └── Source_Code_ACM.ipynb
+     │      # Jupyter Notebook for data preprocessing, feature engineering,
+     │      # model training, and evaluation
+     │
+     ├── Trained_Models/ 🤖
+     │   ├── difficulty_classifier.pkl
+     │   │   # Trained classification model (Easy / Medium / Hard)
+     │   ├── difficulty_regressor.pkl
+     │   │   # Trained regression model for difficulty score
+     │   └── tfidf_vectorizer.pkl
+     │       # TF-IDF vectorizer used for text feature extraction
+     │
+     ├── results_ss/ 📈
+     │   ├── RF_Accuracy.png
+     │   ├── Improved_RF_Accuracy.png
+     │   ├── RF_Confusion_Matrix.png
+     │   ├── RF_Improved_Accuracy.png
+     │   └── Regression_MAE_RMSE.png
+     │       # Screenshots of model performance and evaluation metrics
+     │
+     ├── app_web.py 🚀
+     │   # Streamlit web application for difficulty prediction
+     │
+     ├── README.md 📝
+     │   # Project documentation
+     │
+     ├── Report.pdf 📄
+     │   # Detailed project report (ACM format)
+     │
+     └── requirements.txt ⚙️
+         # List of required Python dependencies
+
 # 🎥 Demo Video
 
 ▶️ Watch Demo:
