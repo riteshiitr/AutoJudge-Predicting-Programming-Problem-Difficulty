@@ -115,16 +115,21 @@ The project includes an interactive Streamlit web app.
 
 ## 🚀 Run the Project Locally
 1️⃣ Clone the Repository
+
     git clone https://github.com/riteshiitr/AutoJudge-Predicting-Programming-Problem-Difficulty.git
+    
     cd AutoJudge-Predicting-Programming-Problem-Difficulty
 
 2️⃣ Install Dependencies
+
     pip install -r requirements.txt
 
 3️⃣ Start the App
+
     streamlit run app_web.py
 
 4️⃣ Open in Browser
+
     http://localhost:8501
 
 # 🎥 Demo Video
