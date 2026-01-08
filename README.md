@@ -15,7 +15,7 @@ It classifies problems into:
 
 It also provides a numerical difficulty score, giving a more detailed idea of problem complexity.
 
-🎯 Why AutoJudge?
+## 🎯 Why AutoJudge?
 
 Difficulty levels on coding platforms are often assigned manually and can be subjective.
 AutoJudge helps by using machine learning to make difficulty prediction more consistent and automatic.
