@@ -24,68 +24,68 @@ AutoJudge helps by using machine learning to make difficulty prediction more con
 
 The dataset contains programming problems with the following fields:
 
- Problem description
+ -Problem description
 
- Input format
+ -Input format
 
- Output format
+ -Output format
 
- Constraints
+ -Constraints
 
- Difficulty label (Easy / Medium / Hard)
+ -Difficulty label (Easy / Medium / Hard)
 
- Difficulty score
+ -Difficulty score
 
  ## 🧹 Data Preparation
 
 Before training the models, the text data is cleaned and processed:
 
- Text normalization
+ -Text normalization
 
- Stopword removal
+ -Stopword removal
 
- Lemmatization
+ -Lemmatization
 
- Class distribution analysis
+ -Class distribution analysis
 
- Feature selection using Random Forest importance
+ -Feature selection using Random Forest importance
 
 # 🧠 How It Works
-### 🧩 Feature Extraction
+## 🧩 Feature Extraction
 
 AutoJudge uses both text and numeric features:
 
- TF-IDF for important words
+ -TF-IDF for important words
 
- Length of problem text
+ -Length of problem text
 
- Count of mathematical symbols
+ -Count of mathematical symbols
 
- Maximum constraint value
+ -Maximum constraint value
 
- Detection of keywords like dp, graph, tree, greedy, etc.
+ -Detection of keywords like dp, graph, tree, greedy, etc.
 
-⚙️ Models Used
+## ⚙️ Models Used
 
-### 🧠 Classification
+#### 🧠 Classification
 
 Random Forest
 → Predicts Easy / Medium / Hard
 
-### 📐 Regression
+#### 📐 Regression
 
 Linear Regression
 → Predicts difficulty score
 
 Feature selection helped improve overall accuracy.
 
-## 📈 Model Performance
+# 📈 Model Performance
 
-✅ Random Forest Accuracy: ~54%
+-✅ Random Forest Accuracy: ~54%
 
-📉 MAE: ~2.5
+-📉 MAE: ~2.5
 
-📉 RMSE: ~3.1
+-📉 RMSE: ~3.1
 
 Better results were achieved after adding engineered features.
 
@@ -95,23 +95,23 @@ The project includes an interactive Streamlit web app.
 
 ### 🔄 User Flow
 
-✍️ Enter problem description
+-✍️ Enter problem description
 
-⌨️ Enter input format
+-⌨️ Enter input format
 
-📤 Enter output format
+-📤 Enter output format
 
-⚡ Get instant predictions
+- Get instant predictions
 
 ### 🎨 UI Features
 
-✨ Glassmorphism design
+-✨ Glassmorphism design
 
-🌈 Gradient theme
+-🌈 Gradient theme
 
-⏱️ Real-time results
+-⏱️ Real-time results
 
-📊 Visual difficulty progress bar
+-📊 Visual difficulty progress bar
 
 ## 🚀 Run the Project Locally
 1️⃣ Clone the Repository
@@ -127,12 +127,12 @@ The project includes an interactive Streamlit web app.
 4️⃣ Open in Browser
     http://localhost:8501
 
-🎥 Demo Video
+# 🎥 Demo Video
 
 ▶️ Watch Demo:
 👉 
 
-👩‍💻 Author
+# 👩‍💻 Author
 
 👤 Name: Ritesh Kumar Ratnakar
 
