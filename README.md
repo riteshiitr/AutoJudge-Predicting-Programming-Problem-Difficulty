@@ -176,7 +176,7 @@ The project includes an interactive Streamlit web app.
 # 🎥 Demo Video
 
 ▶️ Watch Demo:
-👉 
+👉  https://drive.google.com/file/d/1AgORvCyF_lMHH_alwXfseEmREq1_tb42/view?usp=sharing
 
 # 👩‍💻 Author
 
