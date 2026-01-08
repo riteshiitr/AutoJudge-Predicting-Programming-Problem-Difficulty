@@ -157,6 +157,7 @@ The project includes an interactive Streamlit web app.
      │   ├── Improved_RF_Accuracy.png
      │   ├── RF_Confusion_Matrix.png
      │   ├── RF_Improved_Accuracy.png
+     │   ├── WebUI.png
      │   └── Regression_MAE_RMSE.png
      │                # Screenshots of model performance and evaluation metrics
      │
